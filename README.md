@@ -17,7 +17,6 @@ Setting up the environment
 
 
 First example
-_____________
 
 For the first example we will have one worker listening to the low priority
 queue and another listening to the default queue, to see the results it would
@@ -36,8 +35,9 @@ $ python task_test.py
 As you can see the low priority worker will be idle after it will finish to
 handle the low priority tasks, and this is not ideal.o
 
+_____________
+
 Second example
-______________
 
 For the second example we will have to low priority worker listening to both
 queues so it will not be idle when it finished with the low priority tasks
